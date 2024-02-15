@@ -12,7 +12,7 @@ const App = () => {
 	return (
 		<section className="w-full min-h-dvh flex flex-row bg-gray-100">
 			{/* Left */}
-			<section id="left" className="basis-60 p-4">
+			<section id="left" className="basis-80 p-4">
 				{/* Navbar Component */}
 				<section>
 					<h1 className="text-xl font-semibold mb-4">Navigation</h1>
@@ -20,15 +20,7 @@ const App = () => {
 						<li>
 							<a
 								className="underline text-blue-600 hover:text-blue-600/50 transition-colors duration-300"
-								href="https://www.google.com"
-							>
-								Google
-							</a>
-						</li>
-						<li>
-							<a
-								className="underline text-blue-600 hover:text-blue-600/50 transition-colors duration-300"
-								href="https://www.github.com"
+								href="https://github.com/withered-flowers/education-responsive-design-react-tailwind"
 							>
 								Github (Code)
 							</a>
@@ -36,9 +28,17 @@ const App = () => {
 						<li>
 							<a
 								className="underline text-blue-600 hover:text-blue-600/50 transition-colors duration-300"
+								href="https://www.google.com"
+							>
+								Google (Dummy)
+							</a>
+						</li>
+						<li>
+							<a
+								className="underline text-blue-600 hover:text-blue-600/50 transition-colors duration-300"
 								href="https://www.stackblitz.com"
 							>
-								StackBlitz
+								StackBlitz (Dummy)
 							</a>
 						</li>
 					</ul>
